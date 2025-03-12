@@ -1,10 +1,13 @@
 ---
-import astroLogo from '../assets/astro.svg';
-import background from '../assets/background.svg';
-import "../styles/global.css";
+
+let message: string = "Hello, TypeScript!";
 
 ---
-
-<div class="bg-red-500 text-3xl">
-	Hello there, testing PR on vercel 2
-</div>
+<html>
+  <head>
+    <title>Astro with TypeScript</title>
+  </head>
+  <body>
+    <h1>{message}</h1>
+  </body>
+</html>
